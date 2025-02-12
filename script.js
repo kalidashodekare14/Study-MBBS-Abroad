@@ -35,6 +35,11 @@ formSubmit.addEventListener('submit', (e) => {
     } else {
         document.getElementById('countriesVlid').innerHTML = ''
     }
+    document.getElementById('submitBtn').innerHTML = 'Proccessing....'
+
+    setTimeout(() => {
+        JSAlert.alert("Your Lead form Submited");
+        document.getElementById('submitBtn').innerHTML = 'Submit'
+    }, 3000)
     console.log(info)
-    JSAlert.alert("Your ");
 })
