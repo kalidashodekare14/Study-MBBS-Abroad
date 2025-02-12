@@ -1,7 +1,13 @@
-.banner{
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.fontRubik {
+    font-family: "Rubik", serif;
+}
+
+.banner {
     background-image: url(./image/banner.jpg);
 }
 
-.aboutImage{
+.aboutImage {
     height: 500px;
 }
