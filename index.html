@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.7/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Study MBBS Abroad</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">Study MBBS Abroad</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Item 1</a></li>
+                    <li>
+                        <details>
+                            <summary>Parent</summary>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>Item 3</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn">Button</a>
+            </div>
+        </div>
+        <!-- banner section -->
+        <div class="banner h-96 bg-center bg-cover bg-no-repeat flex justify-center items-center">
+            <button class="btn bg-[#3a86ff] text-white border-0 rounded-1xl p-5">Apply Now for MBBS Abroad</button>
+        </div>
+    </header>
+    <main>
+        <!-- about section -->
+         <div class="lg:mx-20 mx-5 my-10 flex flex-col lg:flex-row justify-center items-center gap-5">
+            <div class="lg:w-[40%] lg:h-[500px]">
+                <img class="w-full h-full" src="./image/about.avif" alt="">
+            </div>
+            <div class="lg:w-[60%] space-y-3">
+                <h1 class="text-3xl font-bold">Why Study MBBS Abroad? Key Benefits</h1>
+                <p>Studying MBBS abroad has become an increasingly popular choice for students worldwide due to its affordability, high-quality education, and global career opportunities. Here are some key benefits of pursuing an MBBS degree abroad:</p>
+                <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title font-semibold">Affordable Tuition Fees & Low Living Costs</div>
+                    <div class="collapse-content text-sm">Many countries offer MBBS programs at a lower cost compared to private medical colleges in other countries.</div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">Globally Recognized Medical Degrees</div>
+                    <div class="collapse-content text-sm">Universities abroad are recognized by WHO, NMC (National Medical Commission), ECFMG, and other global medical bodies.</div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">No Entrance Exams & Easy Admission Process</div>
+                    <div class="collapse-content text-sm">Many countries do not require entrance exams like NEET (only required for practicing in India) or IELTS.</div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title font-semibold">High-Quality Education & Modern Infrastructure</div>
+                    <div class="collapse-content text-sm">Universities abroad provide world-class medical education with modern labs, advanced technology, and well-equipped hospitals.</div>
+                  </div>
+            </div>
+         </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
