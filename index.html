@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.7/daisyui.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/js-alert/dist/jsalert.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Study MBBS Abroad</title>
 
@@ -168,32 +169,41 @@
         <!-- Lead form -->
         <div class="lg:mx-20 my-10 fontRubik">
             <h1 class="text-3xl font-bold text-center my-10">Lead form</h1>
-            <div class="grid grid-cols-2 gap-5">
-                <div class="flex flex-col w-full">
-                    <label for="">Name</label>
-                    <input class="input border w-full" type="text">
+            <form id="LoadForm">
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="flex flex-col w-full">
+                        <label for="">Name</label>
+                        <input id="name" class="input border w-full" type="text">
+                        <p id="nameVlid" class="text-red-500"></p>
+                    </div>
+                    <div class="flex flex-col w-full">
+                        <label for="">Email</label>
+                        <input id="email" class="input border w-full" type="type">
+                        <p id="emailVlid" class="text-red-500"></p>
+                    </div>
+                    <div class="flex flex-col w-full">
+                        <label for="">Phone Number</label>
+                        <input id="phone_number" class="input border w-full" type="number">
+                        <p id="pnVlid" class="text-red-500"></p>
+                    </div>
+                    <div class="flex flex-col w-full">
+                        <label for="">Countries</label>
+                        <select id="countries" class="select w-full">
+                            <option disabled selected></option>
+                            <option>Russia</option>
+                            <option>Uzbekistan</option>
+                            <option>Kazakhstan</option>
+                            <option>Philippines</option>
+                            <option>Georgia</option>
+                            <option>Egypt</option>
+                        </select>
+                        <p id="countriesVlid" class="text-red-500"></p>
+                    </div>
                 </div>
-                <div class="flex flex-col w-full">
-                    <label for="">Email</label>
-                    <input class="input border w-full" type="email">
+                <div class="text-center">
+                    <button class="btn my-5">Submit</button>
                 </div>
-                <div class="flex flex-col w-full">
-                    <label for="">Phone Number</label>
-                    <input class="input border w-full" type="text">
-                </div>
-                <div class="flex flex-col w-full">
-                    <label for="">Countries</label>
-                    <select class="select w-full">
-                        <option disabled selected>Select Countries</option>
-                        <option>Russia</option>
-                        <option>Uzbekistan</option>
-                        <option>Kazakhstan</option>
-                        <option>Philippines</option>
-                        <option>Georgia</option>
-                        <option>Egypt</option>
-                    </select>
-                </div>
-            </div>
+            </form>
         </div>
     </main>
     <footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
@@ -231,7 +241,8 @@
             <a class="link link-hover">Cookie policy</a>
         </nav>
     </footer>
-
+    <!-- import javascript -->
+    <script src="./script.js"></script>
 </body>
 
 </html>
