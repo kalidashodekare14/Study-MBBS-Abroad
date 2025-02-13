@@ -5,7 +5,7 @@
 }
 
 .banner {
-    background-image: url(./image/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0,0,0,0),rgba(0,0,0,0.5)), url(./image/banner.jpg);
 }
 
 .aboutImage {
