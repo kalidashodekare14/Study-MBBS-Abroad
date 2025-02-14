@@ -31,11 +31,7 @@ formSubmit.addEventListener('submit', (e) => {
     } else {
         document.getElementById('pnVlid').innerHTML = ''
     }
-    if (!numberPattern.test(phone_number)) {
-        return document.getElementById('pnVlid').innerHTML = 'Enter a valid national number.'
-    } else {
-        document.getElementById('pnVlid').innerHTML = ''
-    }
+    
     if (countries === '') {
         return document.getElementById('countriesVlid').innerHTML = 'Countries is required.'
     } else {
