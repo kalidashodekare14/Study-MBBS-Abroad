@@ -1,6 +1,6 @@
 
 ## Study MBBS Abroad
-## Live Link: [Study MBBS Abroad](https://study-mbbs-abroad-five.vercel.app)
+## Live Link: [Study MBBS Abroad](https://study-mbbs-abroad-iota.vercel.app)
 
 Study MBBS Abroad Project is a well-designed and informative platform for those who are interested in pursuing an MBBS degree abroad. This platform not only provides comprehensive details about MBBS courses in different countries but also provides insights into the admission process, eligibility criteria and benefits of studying abroad.
 
