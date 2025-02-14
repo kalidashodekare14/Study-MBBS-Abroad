@@ -4,6 +4,7 @@
 
 Study MBBS Abroad Project is a well-designed and informative platform for those who are interested in pursuing an MBBS degree abroad. This platform not only provides comprehensive details about MBBS courses in different countries but also provides insights into the admission process, eligibility criteria and benefits of studying abroad.
 
+
 Many students dream of studying MBBS abroad, but they often lack the right guidance on how to proceed. This website acts as a one-stop solution, helping students gather the necessary information, compare different options and apply seamlessly. The intuitive user interface ensures that even first-time users can navigate the platform effortlessly.
 
 ### Features
