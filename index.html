@@ -26,7 +26,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -40,6 +40,7 @@
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=1164625828520574&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>Study MBBS Abroad</title>
 
@@ -223,32 +224,58 @@
     <footer class="footer sm:footer-horizontal bg-[#3a86ff] text-white text-base-content p-10">
         <aside class="w-60">
             <h2 class="text-2xl font-bold">Study MBBS Abroad</h2>
-            <p>Studying MBBS abroad is an excellent opportunity for aspiring doctors to receive high-quality medical
+            <p class="text-[15px]">Studying MBBS abroad is an excellent opportunity for aspiring doctors to receive
+                high-quality medical
                 education at affordable costs.
             </p>
+            <div class="flex items-center gap-3">
+                <a href="">
+                    <div class="text-[20px] border rounded-full p-1 cursor-pointer">
+                        <i class="ri-facebook-fill"></i>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="text-[20px] border rounded-full p-1 cursor-pointer">
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="text-[20px] border rounded-full p-1 cursor-pointer">
+                        <i class="ri-instagram-line"></i>
+                    </div>
+                </a>
+            </div>
         </aside>
+
         <nav>
-            <h6 class="footer-title">Services</h6>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
+            <h6 class="font-bold text-[18px]">Services</h6>
+            <a class="link link-hover text-[15px]">University Selection</a>
+            <a class="link link-hover text-[15px]">Admission Assistance</a>
+            <a class="link link-hover text-[15px]">Visa Guidance</a>
+            <a class="link link-hover text-[15px]">Scholarship Assistance</a>
+            <a class="link link-hover text-[15px]">Accommodation Support</a>
+            <a class="link link-hover text-[15px]">Career Counseling</a>
         </nav>
         <nav>
-            <h6 class="footer-title">Countries</h6>
-            <a class="link link-hover">Russia</a>
-            <a class="link link-hover">Uzbekistan</a>
-            <a class="link link-hover">Kazakhstan</a>
-            <a class="link link-hover">Philippines</a>
-            <a class="link link-hover">Georgia</a>
-            <a class="link link-hover">Egypt</a>
+            <h6 class="font-bold text-[18px]">MBBS Links</h6>
+            <a class="link link-hover text-[15px]">MBBS Admission in Russia</a>
+            <a class="link link-hover text-[15px]">MBBS Admission in Uzbekistan</a>
+            <a class="link link-hover text-[15px]">MBBS Admission in Kazakhstan</a>
+            <a class="link link-hover text-[15px]">MBBS Admission in Philippines</a>
+            <a class="link link-hover text-[15px]">MBBS Admission in Georgia</a>
+            <a class="link link-hover text-[15px]">MBBS Admission in Egypt</a>
         </nav>
         <nav>
-            <h6 class="footer-title">Legal</h6>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
+            <h6 class="font-bold text-[18px]">Legal</h6>
+            <a class="link link-hover text-[15px]">Terms of use</a>
+            <a class="link link-hover text-[15px]">Privacy policy</a>
+            <a class="link link-hover text-[15px]">Cookie policy</a>
         </nav>
+    </footer>
+    <footer>
+        <aside class="text-center p-4 bg-[#3a86ff] text-white border-t border-[#ddd]">
+            <p>© 2025 Study MBBS Abroad. All Rights Reserved.</p>
+        </aside>
     </footer>
     <!-- import javascript -->
     <script src="./script.js"></script>
