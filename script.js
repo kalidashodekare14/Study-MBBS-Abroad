@@ -7,6 +7,7 @@ formSubmit.addEventListener('submit', (e) => {
     let phone_number = document.getElementById('phone_number').value
     let countries = document.getElementById('countries').value
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const numberPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const info = {
         name: name,
         email: email,
@@ -30,6 +31,11 @@ formSubmit.addEventListener('submit', (e) => {
     } else {
         document.getElementById('pnVlid').innerHTML = ''
     }
+    if (!numberPattern.test(phone_number)) {
+        return document.getElementById('pnVlid').innerHTML = 'Enter a valid national number.'
+    } else {
+        document.getElementById('pnVlid').innerHTML = ''
+    }
     if (countries === '') {
         return document.getElementById('countriesVlid').innerHTML = 'Countries is required.'
     } else {
@@ -40,6 +46,7 @@ formSubmit.addEventListener('submit', (e) => {
     setTimeout(() => {
         JSAlert.alert("Your Lead form Submited");
         document.getElementById('submitBtn').innerHTML = 'Submit'
+        formSubmit.reset()
     }, 3000)
     console.log(info)
 })
